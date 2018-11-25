@@ -1,0 +1,6 @@
+# Ignorar los ficheros
+*.aux
+*.log
+*.pdf
+*.synctex.gz
+*.toc
