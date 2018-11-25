@@ -1,0 +1,76 @@
+\documentclass[a4paper,openright,12pt]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+
+\begin{titlepage}
+  
+\newlength{\centeroffset}
+\setlength{\centeroffset}{-0.5\oddsidemargin}
+\addtolength{\centeroffset}{0.5\evensidemargin}
+\thispagestyle{empty}
+\noindent\hspace*{\centeroffset}
+
+\begin{minipage}{\textwidth}
+
+\centering
+\textsc{\Large Asignatura\\[0.5cm]}
+\Huge\bfseries Titulo del Trabajo\\
+
+\end{minipage}
+
+\vspace{2.5cm}
+\noindent\hspace*{\centeroffset}\begin{minipage}{\textwidth}
+\centering
+\textbf{Autor}\\ {Nombre Apellido1 Apellido2 (alumno)}\\[2cm]
+\textsc{-----------------------}\\Granada, Dia de Mes de Año
+
+\end{minipage}
+
+\end{titlepage}
+
+\pagenumbering{arabic}
+\setcounter{page}{2}
+
+\tableofcontents
+
+\chapter*{1. Introducción}\label{c_introduccion} 
+\addcontentsline{toc}{chapter}{1. Introducción \dotfill}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dui ex. Ut interdum venenatis ipsum, eu euismod elit mollis non. Praesent sit amet maximus ligula. Nullam elit nibh, tempor vitae lectus vel, pharetra lacinia arcu. Fusce eget tempus felis, ut aliquam erat. Suspendisse potenti. Proin nunc augue, venenatis a lectus quis, mattis cursus enim. Integer gravida pulvinar venenatis. Aliquam finibus, orci in egestas lobortis, mi justo malesuada magna, vel consectetur ligula lacus ut quam. Suspendisse potenti. Etiam finibus dolor quis interdum porta. Aenean at finibus nisl. Aliquam sed risus cursus, dapibus magna ut, feugiat mauris. Quisque placerat nulla vulputate pellentesque dignissim.
+
+\section*{1.1. Sección}
+\addcontentsline{toc}{section}{1.1. Sección \dotfill}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dui ex. Ut interdum venenatis ipsum, eu euismod elit mollis non. Praesent sit amet maximus ligula. Nullam elit nibh, tempor vitae lectus vel, pharetra lacinia arcu. Fusce eget tempus felis, ut aliquam erat. Suspendisse potenti. Proin nunc augue, venenatis a lectus quis, mattis cursus enim. Integer gravida pulvinar venenatis. Aliquam finibus, orci in egestas lobortis, mi justo malesuada magna, vel consectetur ligula lacus ut quam. Suspendisse potenti. Etiam finibus dolor quis interdum porta. Aenean at finibus nisl. Aliquam sed risus cursus, dapibus magna ut, feugiat mauris. Quisque placerat nulla vulputate pellentesque dignissim. 
+
+\subsection*{1.1.1. Subsección}
+\addcontentsline{toc}{subsection}{1.1.1. Subsección \dotfill}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dui ex. Ut interdum venenatis ipsum, eu euismod elit mollis non. Praesent sit amet maximus ligula. Nullam elit nibh, tempor vitae lectus vel, pharetra lacinia arcu. Fusce eget tempus felis, ut aliquam erat. Suspendisse potenti. Proin nunc augue, venenatis a lectus quis, mattis cursus enim. Integer gravida pulvinar venenatis. Aliquam finibus, orci in egestas lobortis, mi justo malesuada magna, vel consectetur ligula lacus ut quam. Suspendisse potenti. Etiam finibus dolor quis interdum porta. Aenean at finibus nisl. Aliquam sed risus cursus, dapibus magna ut, feugiat mauris. Quisque placerat nulla vulputate pellentesque dignissim.
+
+\subsubsection*{1.1.1.1. Subsubsección}
+\addcontentsline{toc}{subsubsection}{1.1.1.1. Subsubsección \dotfill}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dui ex. Ut interdum venenatis ipsum, eu euismod elit mollis non. Praesent sit amet maximus ligula. Nullam elit nibh, tempor vitae lectus vel, pharetra lacinia arcu. Fusce eget tempus felis, ut aliquam erat. Suspendisse potenti. Proin nunc augue, venenatis a lectus quis, mattis cursus enim. Integer gravida pulvinar venenatis. Aliquam finibus, orci in egestas lobortis, mi justo malesuada magna, vel consectetur ligula lacus ut quam. Suspendisse potenti. Etiam finibus dolor quis interdum porta. Aenean at finibus nisl. Aliquam sed risus cursus, dapibus magna ut, feugiat mauris. Quisque placerat nulla vulputate pellentesque dignissim.
+
+\paragraph{Párrafo}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dui ex. Ut interdum venenatis ipsum, eu euismod elit mollis non. Praesent sit amet maximus ligula. Nullam elit nibh, tempor vitae lectus vel, pharetra lacinia arcu. Fusce eget tempus felis, ut aliquam erat. Suspendisse potenti. Proin nunc augue, venenatis a lectus quis, mattis cursus enim. Integer gravida pulvinar venenatis. Aliquam finibus, orci in egestas lobortis, mi justo malesuada magna, vel consectetur ligula lacus ut quam. Suspendisse potenti. Etiam finibus dolor quis interdum porta. Aenean at finibus nisl. Aliquam sed risus cursus, dapibus magna ut, feugiat mauris. Quisque placerat nulla vulputate pellentesque dignissim.
+
+\cleardoublepage
+
+\begin{thebibliography}{aaaa}
+\addcontentsline{toc}{chapter}{Bibliografía \dotfill}
+
+\bibitem[Autor]{Autor} \textsc{Autor},
+\textit{Titulo} Informacion, Año. 
+
+\end{thebibliography}
+
+\end{document}
+
+\end{document}
